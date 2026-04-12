@@ -14,6 +14,11 @@ var reverseList = function(head) {
     let curr = head;
 
     while(curr!=null){
+        // store next node
+        // reverse pointer
+        // move prev forward
+        // move curr forward
+        
         let nextTemp = curr.next;
         curr.next = prev;
         prev = curr;
